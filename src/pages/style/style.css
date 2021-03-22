@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://st.depositphotos.com/1126760/4197/v/600/depositphotos_41977161-stock-illustration-pale-soft-pastel-abstract-geometric.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-brand {
+    margin: 10px;
+}
+
+#featuredWork {
+  text-align: center;
+}
+
+#cardText {
+  font-weight: bold;
+  font-size: larger;
+}
+
+@media screen and (max-width: 768px){
+    .column1, .column2 {
+        width: 768px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+p1 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p2 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p3 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p4 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p5 {
+    font-size: larger;
+    font-weight: bold;
+}
