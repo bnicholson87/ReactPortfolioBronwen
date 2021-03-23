@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { HashRouter as Router, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
@@ -8,7 +8,10 @@ import Contact from "./pages/js/Contact.js";
 import Footer from "./components/Footer";
 import css from "./pages/style/style.css";
 
-function App() {
+
+class App extends Component {
+
+render(){  
   return (
     <Router>
       <Navbar>
@@ -26,6 +29,7 @@ function App() {
       <Footer />
     </Router>
   );
+}
 }
 
 export default App;
