@@ -18,7 +18,7 @@ body {
   font-size: larger;
 }
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .column1, .column2 {
         width: 768px;
     }
@@ -28,7 +28,7 @@ body {
         align-items: center;
         width: 100%;
     }
-}
+} */
 
 p1 {
     font-size: larger;
@@ -53,4 +53,9 @@ p4 {
 p5 {
     font-size: larger;
     font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
 }

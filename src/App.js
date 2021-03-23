@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
 import AboutMe from "./pages/js/AboutMe.js";
 import Portfolio from "./pages/js/Portfolio.js";
-import Contract from "./pages/js/Contract.js";
+import Contact from "./pages/js/Contact.js";
+import Footer from "./components/Footer";
+import css from "./pages/style/style.css";
 
 function App() {
   return (
@@ -12,15 +14,16 @@ function App() {
       <Navbar>
 
       </Navbar>
-      <Route path="/">
+      <Route exact path="/">
       <AboutMe />
       </Route>
-      <Route path="/portfolio">
+      <Route exact path="/portfolio">
       <Portfolio />
       </Route>
-      <Route path="/contact">
-        <Contract />
+      <Route exact path="/contact">
+        <Contact />
       </Route>
+      <Footer />
     </Router>
   );
 }

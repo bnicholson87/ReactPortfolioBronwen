@@ -1,4 +1,9 @@
 import React from "react";
+import CodingQuizScreenshot from "../Assets/CodingQuizScreenshot.png";
+import DayPlannerScreenshot from "../Assets/DayPlannerScreenshot.png";
+import WeatherDashboardScreenshot from "../Assets/WeatherDashboard.png";
+import BurgerScreenshot from "../Assets/BurgerScreenshot.png";
+import BronwensResume from "../Assets/Bronwen's Résumé (Version 3).pdf"
 
 function Portfolio() {
     return(
@@ -15,7 +20,7 @@ function Portfolio() {
               href="https://www.linkedin.com/in/bronwen-nicholson-a9888824/">https://www.linkedin.com/in/bronwen-nicholson-a9888824/</a>
           </p4>
           <p5>And you can check out the latest version of my resume <a
-              href="Assets/Bronwen's Résumé (Version 3).pdf">here</a></p5>
+              href={BronwensResume}>here</a></p5>
         </div>
         <br />
         <br />
@@ -24,7 +29,7 @@ function Portfolio() {
         <div className="row">
           <div className="col-md-6 column1">
             <div className="card" style={{width: "18rem"}}>
-              <img src="Assets/CodingQuizScreenshot.png" className="card-img-top" alt="..." />
+              <img src={CodingQuizScreenshot} className="card-img-top" alt="..." />
               <div className="card-body">
                 <p className="card-text" id="cardText"><a href="https://bnicholson87.github.io/CodingQuiz/">Coding Quiz</a>
                 </p>
@@ -36,7 +41,7 @@ function Portfolio() {
         <br />
         <div className="col-md-6 column2">
           <div className="card" style={{width: "18rem"}}>
-            <img src="Assets/DayPlannerScreenshot.png" className="card-img-top" alt="..." />
+            <img src={DayPlannerScreenshot} className="card-img-top" alt="..." />
             <div className="card-body">
               <p className="card-text" id="cardText"><a href="https://bnicholson87.github.io/DayPlanner/">Day Planner</a>
               </p>
@@ -48,7 +53,7 @@ function Portfolio() {
         <div className="row">
           <div className="col-md-6 column3">
             <div className="card" style={{width: "18rem"}}>
-              <img src="Assets/WeatherDashboard.png" className="card-img-top" alt="..." />
+              <img src={WeatherDashboardScreenshot} className="card-img-top" alt="..." />
               <div className="card-body">
                 <p className="card-text" id="cardText"><a href="https://bnicholson87.github.io/WeatherDashboard/">Weather
                     Dashboard</a></p>
@@ -61,7 +66,7 @@ function Portfolio() {
         <div className="row">
           <div className="col-md-6 column3">
             <div className="card" style={{width: "18rem"}}>
-              <img src="Assets/BurgerScreenshot.png" className="card-img-top" alt="..." />
+              <img src={BurgerScreenshot} className="card-img-top" alt="..." />
               <div className="card-body">
                 <p className="card-text" id="cardText"><a href="https://bnicholson87.github.io/Burger/">Burger</a></p>
                 <p>Deployed app <a href="https://github.com/bnicholson87/burger.git">here</a></p>
