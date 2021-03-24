@@ -6,7 +6,7 @@ import AboutMe from "./pages/js/AboutMe.js";
 import Portfolio from "./pages/js/Portfolio.js";
 import Contact from "./pages/js/Contact.js";
 import Footer from "./components/Footer";
-import css from "./pages/style/style.css";
+import "./pages/style/style.css";
 
 
 class App extends Component {
